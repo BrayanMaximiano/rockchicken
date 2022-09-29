@@ -5,7 +5,7 @@ const index = (props) => {
   return (
     <Container >
         <FotoItemWrapper>
-            <FotoItem src='https://via.placeholder.com/150'/>
+            <FotoItem src={props.img}/>
         </FotoItemWrapper>
         <InfoWrapper>
             <ItemName>{props.nome}</ItemName>

@@ -4,7 +4,7 @@ import CardapioItem from '../CardapioItem'
 
 const index = (props) => {
   return (
-    <Container>
+    <Container data-aos="fade-left">
         <Title> {props.section} </Title>
         <CardapioItem nome="combo 1" desc="6 tiras de peitop de frango, empanadas na hora e fritas, servidas bem crocantes.
         acompanha molho honey mustard levemente apimentado e uma bebida da sua escolha"/>

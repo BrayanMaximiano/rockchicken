@@ -10,9 +10,9 @@ const index = () => {
     <Container>
         <Title> Cardápio</Title>
         <ComboSection section="Combos" />
-        <BaldeSection section="Bebidas" />
+        <BaldeSection section="Baldes" />
         <MolhoSection section="Molhos" />
-        <BebidaSection section="Molhos" />
+        <BebidaSection section="Bebidas" />
     </Container>
   )
 }
