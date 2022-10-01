@@ -34,6 +34,11 @@ export const HomePngWrapper = styled.div`
     height: 270px;
   }
 
+  @media (max-width: 320px){
+    height: 200px;
+    
+  }
+
 
     
 `
@@ -63,6 +68,10 @@ export const Title = styled.h1`
       height: fit-content;
       font-size: 2rem;
   }
+
+  @media (max-width: 320px){
+    font-size: 1.5rem;
+  }
 `
 
 export const Button = styled.button`
@@ -88,5 +97,11 @@ export const Button = styled.button`
     width: 80%;
     margin-bottom: 0;
     font-size: 2rem;
+  }
+
+  @media (max-width: 320px){
+    height: 50px;
+    font-size: 25px;
+    width: 60%;
   }
 `

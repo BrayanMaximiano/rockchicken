@@ -20,6 +20,7 @@ export const FotoWrapper = styled.div`
     height: 150px;
     width: 150px;
     margin-right: 50px;
+    overflow: hidden;
 
     @media (max-width:415px){
     display: none;

@@ -28,7 +28,7 @@ export const Container = styled.div`
 
 
 export const LogoWrapper = styled.div`
-  width: 70px;
+  width: 100px;
   height: 90%;
   overflow-y: hidden;
   @media (max-width: 414px){

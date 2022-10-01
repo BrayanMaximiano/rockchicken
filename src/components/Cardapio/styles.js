@@ -20,4 +20,8 @@ text-decoration: underline;
     top: 83vh;
 }
 
+@media (max-width: 320px){
+    font-size:2.3rem;
+}
+
 `

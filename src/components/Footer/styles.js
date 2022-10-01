@@ -47,6 +47,7 @@ align-items: center;
 export const PaymentWrapper = styled.div`
  height: 40px;
  width: 50%;
+ overflow: hidden;
  @media (max-width: 415px){
     height: 30px;
     width: 80%;

@@ -24,6 +24,8 @@ border-radius: 10px;
 margin-right:10px;
 height: 150px;
 width: 150px;
+overflow: hidden;
+border: none;
 
 @media (max-width: 415px){
     display: none;
